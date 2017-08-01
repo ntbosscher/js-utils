@@ -14,3 +14,4 @@ This is a repository of self-contained js utils.
 | Str Util | [directory](./str-util) |
 | Time Util | [directory](./time-util) |
 | Url Util | [directory](./url-util) |
+| Web Util | [directory](./web-util) |
