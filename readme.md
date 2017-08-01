@@ -11,3 +11,4 @@ This is a repository of self-contained js utils.
 | Cache Util | [directory](./cache-util) |
 | Event Util | [directory](./event-util) |
 | Obj Util | [directory](./obj-util) |
+| Str Util | [directory](./str-util) |
