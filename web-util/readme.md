@@ -33,4 +33,4 @@ Provides a nice wrapper for XMLHttpRequest.
 
 ## Encode Uri
 
-Converts `{"key" : "v alue"}`` => `key=v%20alue`
+Converts `{"key" : "v alue"}` => `key=v%20alue`
