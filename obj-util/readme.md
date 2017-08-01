@@ -13,6 +13,7 @@ Provides simple class selection using and object.
 ## Clone
 
 Provides deep clone for a javascript object.
+
 | Name | Description |
 | - | - |
 | Clone(obj) | |
@@ -20,6 +21,7 @@ Provides deep clone for a javascript object.
 ## Deep Compare
 
 Compares 2 objects and returns wether they are equal.
+
 | Name | Description |
 | - | - |
 | NewIdCodeScope | Creates a new scope and returns idGen function |
