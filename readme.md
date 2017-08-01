@@ -8,7 +8,7 @@ This is a repository of self-contained js utils.
 
 | Name | Link |
 | ---- | ---- |
-| Cache Util | [Readme.md](./tree/master/cache-util/readme.md)
+| Cache Util | [directory](./cache-util)
 
 ### Event utils
 #### Canceler
