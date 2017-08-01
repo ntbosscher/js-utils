@@ -6,17 +6,9 @@ This is a repository of self-contained js utils.
 
 ## Inventory
 
-### Cache utils
-#### Cacheable
-
-Simple Caching class that allows for the following methods
-
-| Name | Description |
-| - | - |
-| Get() | |
-| Set(obj, expiry_ms) | |
-| Invalidate() | |
-| hasExpired() | returns bool |
+| Name | Link |
+| ---- | ---- |
+| Cache Util | [Readme.md](./tree/master/cache-util/readme.md)
 
 ### Event utils
 #### Canceler
