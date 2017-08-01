@@ -24,7 +24,7 @@ Compares 2 objects and returns wether they are equal.
 
 | Name | Description |
 | - | - |
-| NewIdCodeScope | Creates a new scope and returns idGen function |
+| Compare(A,B) | returns bool |
 
 ## IdCode
 
