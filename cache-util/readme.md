@@ -1,7 +1,8 @@
 
 
-### Cache utils
-#### Cacheable
+# Cache utils
+
+## Cacheable
 
 Simple Caching class that allows for the following methods
 
