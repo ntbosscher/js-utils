@@ -10,6 +10,7 @@ This is a repository of self-contained js utils.
 #### Cacheable
 
 Simple Caching class that allows for the following methods
+
 | Name | Description |
 | - | - |
 | Get() | |
@@ -31,6 +32,7 @@ Supports other classes that allow for cancelable asynchronous operations
 #### Fetchable
 
 Has a nice way of organizing retrievable data. Uses a Cacheable to store it's data value
+
 | Name | Description |
 | - | - |
 | .fetching | bool store state for asynchronous fetch |
