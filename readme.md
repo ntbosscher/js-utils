@@ -13,3 +13,4 @@ This is a repository of self-contained js utils.
 | Obj Util | [directory](./obj-util) |
 | Str Util | [directory](./str-util) |
 | Time Util | [directory](./time-util) |
+| Url Util | [directory](./url-util) |
