@@ -9,8 +9,10 @@
 
 import {MILLISECOND,SECOND,MINUTE,HOUR} from "./duration.js";
 import format from "./formattime.js";
+import Timer from "./timer.js"
 
 export {
 	MILLISECOND,SECOND,MINUTE,HOUR,
 	format,
+	Timer
 }
