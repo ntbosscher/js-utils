@@ -1,21 +1,43 @@
 
 class timerWorker {
 	constructor(milliseconds) {
-		this.p = null;
-		this.milliseconds = milliseconds;
+
+		this.state = {
+			p: null,
+			milliseconds: milliseconds,
+			canceled: false,
+		};
+
 		this.start();
 	}
 
 	start() {
-		this.p = new Promise((resolve) => {
-		   setTimeout(() => {
-			   resolve();
-		   }, this.milliseconds)
+		this.state.p = new Promise((resolve) => {
+			setTimeout(() => {
+				if(this.state.canceled){
+					return;
+				}
+				resolve();
+			}, this.state.milliseconds)
 	   });
 	}
 
+	// alias for .done()
 	Done(callback) {
-		this.p.then(callback);
+		this.done(callback);
+	}
+
+	done(callback) {
+		this.state.p.then(callback);
+	}
+
+	// alias for .done()
+	then(callback) {
+		this.done(callback);
+	}
+
+	cancel() {
+		this.state.canceled = true;
 	}
 }
 
