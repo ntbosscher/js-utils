@@ -121,8 +121,8 @@ var ajax = function(ajax_opts){
 		}
 
 		if(p){
-    	x.setRequestHeader("Content-Type", "application/octet-stream");
-    } else if(isJSON){
+	    	x.setRequestHeader("Content-Type", "application/octet-stream");
+	    } else if(isJSON){
 			x.setRequestHeader("Content-Type", "application/json");
 		}
 
