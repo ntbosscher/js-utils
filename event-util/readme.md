@@ -22,3 +22,7 @@ Has a nice way of organizing retrievable data. Uses a Cacheable to store it's da
 | get() | |
 | set(obj, expiry_ms) | |
 | invalidate() | |
+
+## IntervalUntilTrue
+
+Does calls the callback at a specified interval until the callback returns true.

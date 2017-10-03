@@ -12,6 +12,7 @@ import EventEmitter from "./eventemitter.js";
 import Fetchable from "./fetchable.js"
 import MPromiseExpirable from "./mpromise-expirable.js";
 import MPromise from "./mpromise.js";
+import CancelableInterval from "./cancelable-interval.js";
 
 export {
 	Canceler,
@@ -19,4 +20,5 @@ export {
 	Fetchable,
 	MPromiseExpirable,
 	MPromise,
+	CancelableInterval
 }
