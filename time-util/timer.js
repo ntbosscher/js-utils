@@ -25,15 +25,18 @@ class timerWorker {
 	// alias for .done()
 	Done(callback) {
 		this.done(callback);
+		return this;
 	}
 
 	done(callback) {
 		this.state.p.then(callback);
+		return this;
 	}
 
 	// alias for .done()
 	then(callback) {
 		this.done(callback);
+		return this;
 	}
 
 	cancel() {
