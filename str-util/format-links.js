@@ -14,7 +14,7 @@ export default function(text, options) {
 	if(!options) options = {};
 	if(options.target === undefined) options.target = "_blank";
 
-	return text.replace(/((http[s]{0,1}:\/\/){0,1}(www\.){0,1}|[^ \t\n]+@)[A-z0-9\-]+\.[a-z]{2,10}([A-z0-9_?\/%\.=]+){0,1}/g, (value) => {
+	return text.replace(/((http[s]{0,1}:\/\/){0,1}(www\.){0,1}|[^ \t\n]+@)[A-z0-9\-]+\.[a-z]{2,10}([\-A-z0-9_?\/%\.=]+){0,1}/g, (value) => {
 		var url = value;
 		if(url.indexOf("@") != -1) {
 			url = "mailto:" + url;
